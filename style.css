@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+
+.hello, h2 {
+    font-family:Garamond;
+    color:#189ca3;
+    display:block;
+}
+
+.hello {
+    font-size:5em;
+    text-shadow: 3px 3px #fed9b7;
+    margin: .4em;
+    text-align: center;
+}
+
+.blonk {
+    font-size: 2em;
+    background-color: #EE6258;
+    border-radius: 0 50px 50px 0;
+    padding: 0 20px 0 40%;
+    color:white;
+}
+
+.blonkodd {
+    font-size: 2em;
+    background-color: #EE6258;
+    border-radius: 50px 0 0 50px;
+    padding: 0 40% 0 20px;
+    color:white;
+    float: right;
+    margin-left:10%;
+}
+
+.disclaim {
+    font-family:Helvetica;
+    color:#6e6e6e;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+body {
+    background-color:#fffff1;
+}
+
+ul, .attrib, .q, .contact {
+    font-family: Helvetica;
+    color: #005e7a;
+    font-size:1.2em;
+    line-height: 1.5;
+}
+
+.attrib {
+    margin: 0 0 30px 80px;
+}
+
+.testify {
+    font-family: Garamond;
+    font-weight:100;
+    font-size:1.5em;
+    margin: 0 50px;
+    color: white;
+    background-color: #9A879D;
+    padding: 5px;
+    border-radius:10px;
+}
+
+.fa {
+    font-family: Garamond;
+    font-size: 1.5em;
+    color: #9A879D;
+}
+
+a {
+    text-decoration: underline solid #f07167;
+    color: #f07167;
+}
+
+a:hover {
+    transition: 300ms;
+    color:#005e7a;
+    text-decoration: underline double #005e7a;
+}
+
+p, ul, .attrib {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    margin-bottom:20px;
+}
+
+.hahabut {
+    background-color: #00afb9;
+    border-radius: 10px;
+    border-color:white;
+    padding: 5px;
+    color:white;
+    text-decoration:none;
+    transition:300ms;
+}
+
+.hahabut:hover {
+    background-color:white;
+    color:#00afb9;
+    transition:300ms;
+    text-decoration:none;
+    border-color:#00afb9;
+    border-style:solid;
+}
+
+img {
+    width:90%;
+    height:auto;
+    border-radius: 10%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.kodak {
+    background-color: #feead7;
+
+    border-radius: 10%;
+    display: block;
+    width:60%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sing {
+    font-size:1.5em;
+}
+
+.fa {
+    margin: 20px;
+}
+
+/*dark blue: #005e7a
+  light blue: #00afb9
+  dark pink: #f07167
+  light pink: #fed9b7*/

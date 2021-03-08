@@ -22,6 +22,7 @@ body {
     border-radius: 0 50px 50px 0;
     padding: 0 20px 0 40%;
     color:white;
+    margin-top: 50px;
 }
 
 .blonkodd {
@@ -32,6 +33,10 @@ body {
     color:white;
     float: right;
     margin-left:10%;
+}
+
+.blonkodd2 {
+    padding: 0 46% 0 20px;
 }
 
 .disclaim {
@@ -73,6 +78,7 @@ ul, .attrib, .q, .contact {
     font-family: Garamond;
     font-size: 1.5em;
     color: #9A879D;
+    margin: 30px 10% 5px
 }
 
 a {
@@ -87,13 +93,14 @@ a:hover {
 }
 
 p, ul, .attrib {
-    max-width: 30em;
+    max-width: 40em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .contact {
     margin-bottom:20px;
+    max-width: 21em;
 }
 
 .hahabut {
@@ -117,6 +124,7 @@ p, ul, .attrib {
 
 img {
     width:90%;
+    max-width:600px;
     height:auto;
     border-radius: 10%;
     display:block;
@@ -127,7 +135,7 @@ img {
 
 .kodak {
     background-color: #feead7;
-
+    max-width:650px;
     border-radius: 10%;
     display: block;
     width:60%;
@@ -138,10 +146,6 @@ img {
 
 #sing {
     font-size:1.5em;
-}
-
-.fa {
-    margin: 20px;
 }
 
 /*dark blue: #005e7a

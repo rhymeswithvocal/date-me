@@ -9,6 +9,10 @@ body {
     display:block;
 }
 
+h2 {
+    margin-top: 50px;
+}
+
 .hello {
     font-size:5em;
     text-shadow: 3px 3px #fed9b7;
@@ -22,7 +26,6 @@ body {
     border-radius: 0 50px 50px 0;
     padding: 0 20px 0 40%;
     color:white;
-    margin-top: 50px;
 }
 
 .blonkodd {
@@ -33,6 +36,7 @@ body {
     color:white;
     float: right;
     margin-left:10%;
+    margin-bottom: 30px
 }
 
 .blonkodd2 {
@@ -42,8 +46,7 @@ body {
 .disclaim {
     font-family:Helvetica;
     color:#6e6e6e;
-    padding: 10px;
-    padding-top: 0;
+    padding: 5px 40px;
     margin-top: 0;
     text-align: center;
 }
@@ -61,6 +64,11 @@ ul, .attrib, .q, .contact {
 
 .attrib {
     margin: 0 0 30px 80px;
+    padding: 0 80px;
+}
+
+ul {
+    padding: 0 50px;
 }
 
 .testify {
@@ -98,9 +106,14 @@ p, ul, .attrib {
     margin-right: auto;
 }
 
+ul {
+    max-width: 25em;
+}
+
 .contact {
-    margin-bottom:20px;
-    max-width: 21em;
+    margin-bottom:40px;
+    padding-top:30px;
+    max-width: 22em;
 }
 
 .hahabut {
@@ -130,7 +143,7 @@ img {
     display:block;
     margin-left:auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .kodak {
@@ -147,7 +160,6 @@ img {
 #sing {
     font-size:1.5em;
 }
-
 /*dark blue: #005e7a
   light blue: #00afb9
   dark pink: #f07167
